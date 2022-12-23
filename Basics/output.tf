@@ -1,4 +1,4 @@
-output "for_output_list" {
+/*output "for_output_list" {
   description = "This is for loop with list"
   value       = [for instance in aws_instance.sample-ec2vm : instance.public_ip]
 }
@@ -16,4 +16,4 @@ output "for_output_map_advanceed" {
 output "for_output_splat_operator" {
   description = "his is for loop with splat operator"
   value       = aws_instance.sample-ec2vm[*].public_ip
-}
+}*/
